@@ -1,10 +1,5 @@
+from Card import Card as Card
 import random
-
-
-class Card:
-        def __init__(self, color: str, value: str):
-                self.color = color
-                self.value  = value
 
 class Deck:
         def __init__(self):
@@ -33,11 +28,3 @@ class Deck:
                         index = random.randint(0, len(self.deck)-1)
                         print(self.deck[index].value, self.deck[index].color)
                         self.deck.pop(index)
-
-
-if __name__ == "__main__":
-        card_deck = Deck()
-        card_deck.play_game()
-
-
-
