@@ -1,6 +1,6 @@
 import random
 from Deck import Deck
 if __name__ == "__main__":
-        card_deck = Deck()
-        card_deck.play_game()
-1
+	card_deck = Deck()
+	card_deck.play_game()
+
